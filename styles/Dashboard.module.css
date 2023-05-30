@@ -1,0 +1,20 @@
+.addEvent{
+    width: 19%;
+    height: 160rem;
+}
+.addEventLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.addeventImage a{
+    text-decoration: none;
+}
+.lists{
+margin-top: 1rem;
+}
+.listIcon{
+    color: white;
+}

@@ -1,0 +1,169 @@
+.addEventFirst{
+    background: #f9f1dd;
+    height: 110rem;
+    width: 15rem;
+    box-shadow: 2px 3px 12px  rgb(188, 188, 197);
+
+}
+.candleriggs{
+    margin-top: 4rem;
+}
+.addEventLinks{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.addeventSecond{
+    margin-top: 1rem;
+}
+.textareScroll::-webkit-scrollbar{
+    display: none;
+}
+
+.textareScroll1::-webkit-scrollbar{
+    display: none;
+}
+.addeventSecond .addbannerimg{
+    margin-left: 0.9rem;
+}
+.addEventRightSide{
+    padding-left: 3rem;
+}
+.dashboardHeadings{
+    margin-top: 6rem;
+    border: 2px solid rgb(221, 219, 219);
+    border-radius: 7px;
+    padding: 20px;
+
+}
+.DashboardBox .dashboardwrite{
+    margin-left: 1rem;
+}
+.h2 h5{
+    margin-top: 3rem;
+    color: #242323;
+    letter-spacing: 0.5px;
+}
+.uploadingEvent h5{
+    margin-top: 3rem;
+    color: #242323;
+    letter-spacing: 0.5px;
+}
+.uploadingEvent2 p{
+color: #313131;
+font-size: 11px;
+margin-bottom: 2rem;
+}
+
+.dragingparas {
+    margin-top: -11rem;
+}
+.dragingparas label{
+    margin-left: 6rem;
+    padding: 0;
+    border: none;
+    background: none;
+}
+.dragingparas p{
+    text-align: center;
+    width: 8rem;
+    font-size: 12px;
+    margin-left: -2.5rem;
+    margin-top: 1rem;
+}
+.formStart{
+    margin-top: 4rem;
+}
+.formStart .mb-3 label{
+   font-size: 16px; 
+   font-weight: 400;
+}
+.formStart .mb-3 input{
+    box-shadow: 0px 0px 2px rgb(118, 108, 108);
+    height: 3rem;
+    width: 45rem;
+
+}
+.formStart .mb-3 ::placeholder{
+ font-size: 12px;   
+ font-weight: 500;
+ padding: 1rem;
+ margin-bottom: 12rem;
+ color: #b9b9b9;
+}
+.formStart .euroPlaceholder ::placeholder{
+    color: black;
+    font-size: 1.5rem;
+}
+.euroImage img {
+    z-index: 1;
+    left: 20rem;
+    top: 70rem;
+    position: absolute;
+
+}
+.submitButton button{
+   color: #ffffff;
+}
+.startTime{
+    margin-top: -1rem;
+}
+.startTime .row-cols-3 .timeHeading p{
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.startTimeEvent{
+width: 45rem;
+}
+
+.datenewStyle input{
+     box-shadow: 0px 0px 1px rgb(118, 108, 108);
+   border: 1px solid rgb(206, 194, 194);
+   border-radius: 5px;
+   height: 2.5rem;
+}
+.selectClass {
+    margin-top: -1rem;
+}
+.selectClass2{
+    margin-left: -1.3rem;
+}
+.selectImageBetween{
+    margin-top: 0.7rem;
+    padding-left: 16px;
+    
+}
+.btn-danger{
+    height: 2rem;
+    margin-left: 0rem;
+}
+/* select option{
+    border-radius: 3rem;
+    font-size: 0.7rem;
+} */
+.characterEdit{
+    position: relative;
+    left:40rem;
+    top: -1rem;
+    font-size: 0.8rem;
+    opacity: 60%;
+}
+.dateEvent{
+width: 11rem;
+height: 2.9rem;
+font-size: 13px;
+border-radius: 10px;
+border:1px solid #dadde0;
+}
+.dateEvent::-webkit-datetime-edit { padding: 0px; }
+.dateEvent::-webkit-datetime-edit-fields-wrapper { color: silver;font-size: 11px; margin-bottom: 0.2rem;}
+.dateEvent::-webkit-datetime-edit-text { color: silver; padding: 0 0.3em; }
+.dateEvent::-webkit-datetime-edit-month-field { color: silver;text-transform:uppercase;}
+.dateEvent::-webkit-datetime-edit-day-field { color: silver;text-transform:uppercase;margin-left: 0.6rem; }
+.dateEvent::-webkit-datetime-edit-year-field { color: silver;text-transform:uppercase; }
+.formStart input[type="number"]::-webkit-outer-spin-button,
+.formStart input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+
+}

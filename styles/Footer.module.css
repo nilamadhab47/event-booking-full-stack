@@ -1,0 +1,396 @@
+.footer {
+    user-select: auto;
+    background: #270F33;
+    color: white;
+    padding: 2rem 0rem;
+    font-family: 'Roboto', sans-serif;
+    height:461px;
+  }
+  .email_box h5 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 35px;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+  }
+  .contactEndLink {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4rem;
+}
+ .contactPrivacyDivs{
+  
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+ }
+ .contact_links{
+  font-size: 14px;
+  position: relative;
+  top: 0px;
+  margin-top: 0.5rem;
+ }
+
+  .contactContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .contactEndLink p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E6E6E6;
+    padding-top: 0.7rem;
+  }
+  .contactLinks span{
+display: flex;
+gap: 4rem;
+  }
+  .contactLinks span a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #FFFFFF;
+    /* width: 106px; */
+height: 23px;
+padding-top: 3rem;
+padding-bottom: 6rem;
+  }
+  .contactPrivacy h4{
+
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  }
+
+  .class_left{
+    display:flex ;
+    flex-direction: column;
+    font-size: 0.875rem;
+    font-family: "Roboto",sans-serif;
+  }
+  .email {
+    user-select: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footet_social{
+    margin-top: 5px;
+    margin-right: -3rem;
+
+  }
+  
+
+  .email_box {
+    user-select: auto;
+    border: 2px solid rgba(251, 208, 122, 1);
+    border-radius: 0.6rem;
+    padding: 2rem 1.5rem;
+    width: 750px;
+    height: 222px;
+  }
+  .contact h4 {
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  }
+ 
+  
+  .footer form input {
+    padding-left: 0.5rem;
+    padding-right: 6rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 33.813rem;
+    height: 4.688rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footer form input {
+    border-radius: 7.5px;
+    margin-left: 35px;
+  }
+  .footer form button {
+    position: relative;
+    right: 7.7rem;
+    background-color: #fbd07a;
+    border: 1px;
+    border-radius: 9px;
+    padding: 9px 24px;
+    font-size: 1.125rem;
+    /* height: 45px; */
+    top: 1px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .contact_links:active {
+    color:rgb(251, 122, 128);
+    text-decoration-line: underline;
+  }
+  .display_email{
+    font-size: 14px;
+    width: 21rem;
+    color: #ffffff;
+  }
+  @media screen and ( min-width:320px ) and (max-width:767px) {
+    .searchfoote{
+      position: relative;
+      top:8px;
+    }
+    .display_email {
+      font-size: 14px;
+      width: 17rem;
+      color: #ffffff;
+  }
+
+.contactPrivacy h4 {
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.contact_links {
+  font-size: 14px;
+  position: relative;
+  top: 0px;
+  margin-top: 0.5rem;
+}
+.contactEndLink {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+    .email {
+      -webkit-user-select: auto;
+    -moz-user-select: auto;
+    user-select: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .email_box {
+    -webkit-user-select: auto;
+    user-select: auto;
+    border: 2px solid rgba(251, 208, 122, 1);
+    border-radius: 0.6rem;
+    padding: 1.4rem 2rem;
+    width: 284px;
+    height: 97px;
+  }
+  
+  .footer {
+    -webkit-user-select: auto;
+    user-select: auto;
+    background: rgba(0, 56, 49, 1);
+    color: white;
+    width: 100%;
+    margin-bottom: 0rem;
+    margin-top: 4rem;
+    overflow: hidden;
+  }
+  .footer form input {
+    padding-right: 5.7rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 235px;
+    font-size: 9px;
+    margin-left: 0px;
+    height: 3rem;
+    height: 32px;
+    font-family: "Roboto",sans-serif;
+  }
+  .footer form {
+    display: flex;
+    background: darkblue;
+    width: 0rem;
+  }
+
+
+  .contact {
+    margin-top: 2rem;
+  }
+  .contact p:nth-child(2){
+  margin-top: 1rem;
+  }
+  .footer form button {
+    position: relative;
+    right: 2.7rem;
+    background-color: #fbd07a;
+    border: 1px;
+    border-radius: 3px;
+    height: 19px;
+    font-size: 8px;
+    padding: 4px;
+    width: 45px;
+    top: 7px;
+    font-family: "Roboto",sans-serif;
+  }
+  .class_left{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    font-family: "Roboto",sans-serif;}
+    .contact h4 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+  }
+
+  .email_box h5 {
+    font-size: 10px;
+    margin-left: 3px;
+    margin-bottom: 6px;
+    margin-top: 0;
+  }
+  .footer_form{
+    display: flex;
+    width: 27rem;
+  }
+  .contactLinks span a {
+    font-size: 14px;
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+}
+.contactLinks span {
+  display: flex;
+  gap: 2rem;
+}
+.contactPrivacyDivs {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -2.4rem;
+}
+  }
+
+  @media screen and (min-width:767px) and (max-width:1250px) {
+    .email-box{
+      padding: 3rem 2rem;
+    }
+    .contactPrivacy {
+      margin-top: 0rem;
+  }
+  .contact_links {
+    font-size: 14px;
+    position: relative;
+    top: -13px;
+    margin-top: 0.5rem;
+}
+    .footer{
+      height: 378px;
+    }
+    .contactPrivacyDivs {
+      display: flex;
+      justify-content: center;
+      gap: 0rem;
+      flex-direction: column;
+  }
+
+
+    .footer form input{
+      padding-right: 7rem;
+      width: 413px;
+      height: 53px;
+      font-size: 12px;
+    }
+    .contact {
+      font-size: 15px;
+    }
+    .email_box {
+      padding: 2rem 0.5rem;
+      width: 543px;
+      height: 159px;
+    }
+    .footer form button{
+      font-size: 12px;
+      width: 74px;
+      height: 32px;
+      position: relative;
+      right: 6rem;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      font-family: 'Roboto', sans-serif;
+    }
+    .email_box h5 {
+      font-size: 17px;
+  }
+  .contactLinks span a {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+  .email_box h5{
+margin-top: 0;
+margin-bottom:10px;
+  }
+  .contact h4{
+    margin-top: 0rem;
+  }
+  }
+  @media screen and (min-width:767px) and (max-width:946px) {
+    .email_box {
+      width: 49%;
+  }
+.footer form input {
+    width: 69%;
+}
+  }
+  @media screen and (min-width:1250px) and (max-width:1326px) {
+    .email_box {
+      width: 674px;
+  }
+.footer form input {
+    width: 29.813rem;
+}
+  }
+  
+   
+    @media(min-width:2559px){
+      .email{
+        gap: 18rem;
+      }
+    }
+    @media screen and (min-width:1442px) {
+      .email {
+        -webkit-user-select: auto;
+        user-select: auto;
+        display: flex;
+        margin: 0 auto;
+        gap: 4rem;
+        margin-left: -4rem;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+    .email_box h5 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      margin-top: 10px;
+      margin-left: 35px;
+      font-family: "Roboto",sans-serif;
+    }
+    
+    }
+  

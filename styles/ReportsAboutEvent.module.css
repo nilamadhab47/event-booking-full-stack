@@ -1,0 +1,142 @@
+.ReportEventFirst {
+    background: #f9f1dd;
+    height: 70rem;
+    width: 15rem;
+    box-shadow: 2px 3px 12px rgb(188, 188, 197);
+  }
+  .candleriggs {
+    margin-top: 4rem;
+    margin-left: 20px;
+  }
+  .addEventLinks {
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+  .addeventSecond {
+    margin-top: 1rem;
+  }
+  .addeventSecond .addbannerimg {
+    margin-left: 0.9rem;
+  }
+  .ReportEventRightSide {
+    padding-left: 3rem;
+  }
+  .dashboardHeadings {
+    margin-top: 6rem;
+    border: 2px solid rgb(221, 219, 219);
+    border-radius: 7px;
+    padding: 20px;
+    width: 65rem;
+    padding: 21px 21px 8px 15px;
+    background: #270F33;
+  }
+  .DashboardBox .dashboardwrite {
+    margin-left: 1rem;
+  }
+  .ReportsHeadings {
+    margin-top: 2rem;
+  }
+  .SearchAdd {
+    margin-top: 1rem;
+  }
+  .ReportSearch input {
+    width: 52rem;
+    margin-top: 0.4rem;
+    height: 4rem;
+    box-shadow: 0px 0px 1px rgb(118, 108, 108);
+    border: 1px solid rgb(221, 219, 219);
+  
+    border-radius: 6px;
+  }
+  .ReportSearch input::placeholder {
+    padding: 1rem;
+    opacity: 60%;
+  }
+  
+  .search_icon {
+    font-size: 24px;
+    position: relative;
+    left: 10px;
+    top: 24px;
+    opacity: 60%;
+  }
+  .AddLeadForm button{
+      background: #FBD07A;
+  color:  #003831;;
+  border: none;
+  border-radius: 6px;
+      width: 12rem;
+      margin-top: 0.4rem;
+      height: 4rem;
+      position: relative;
+      left: 7px;
+  
+  }
+  .AddLeadForm button .leadIcon{
+      font-size: 21px;
+      margin-left: 5px;
+  }
+  .reportTable{
+      margin-top: 2rem;
+      width: 100%;
+  }
+  .reportTable table{
+      width: 164%;
+  }
+  /* .AddLeadForm {
+    margin-left: -32.5rem;
+  } */
+  .tableheading{
+      border: none;
+      box-shadow: 0px 0px 1px rgb(118, 108, 108);
+    border-radius: 6px;
+  padding: 20rem;
+  }
+  .tableheading th{
+      padding: 10px;
+  }
+  .tableData td{
+      padding-top: 1rem;
+      padding-left: 0.5rem;
+      font-weight:500;
+  }
+  .tableData a{
+    border: none;
+  }
+  .tableData td button{
+    border: none;
+    background: transparent;
+    padding: 4px;
+    padding-left: 18px;
+    padding-top: 0.4rem;
+  }
+  @media screen and (min-width:0px)  and (max-width:1000px) {
+.exceedContainer{
+  display: none;
+}
+  }
+  @media screen and (min-width:1442px)  {
+  
+  .exceedContainer{
+    display: flex;
+    justify-content: center;
+  }
+  }  
+  .div{
+    display: flex;
+  }
+  
+  .mdDelete{
+    cursor: pointer;
+  }
+  .editButton{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  .tabledata_data{
+    padding: 9px;
+    padding-left: 18px;
+    padding-top: 0.4rem;
+    cursor: pointer;
+  }

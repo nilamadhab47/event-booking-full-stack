@@ -1,0 +1,286 @@
+.addEvent{
+
+    background: #f9f1dd;
+    height: 134rem;
+    width: 17rem;
+    box-shadow: 2px 3px 12px  rgb(188, 188, 197);
+    background: #003831;
+
+}
+.characterEdit{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 5rem;
+    font-size: 0.8rem;
+    top: -0.8rem;
+    opacity: 60%;
+}
+.candleriggs{
+    margin-top: 4rem;
+}
+.addEventLinks{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.addeventSecond{
+    margin-top: 1rem;
+}
+.addeventSecond .addbannerimg{
+    margin-left: 0.9rem;
+}
+.addEventRightSide{
+    padding-left: 3rem;
+}
+.dashboardHeadings{
+    margin-top: 6rem;
+    border: 2px solid rgb(221, 219, 219);
+    border-radius: 7px;
+    padding: 20px;
+    width: 66rem;
+}
+.DashboardBox .dashboardwrite{
+    margin-left: 1rem;
+}
+.h2 h5{
+    margin-top: 3rem;
+    color: #242323;
+    letter-spacing: 0.5px;
+}
+
+.uploadingBanner{
+    width: 65rem;
+
+}
+.uploadingBanner2 h5{
+    margin-top: 3rem;
+    color: #242323;
+    letter-spacing: 0.5px;
+}
+
+.uploadingBanner2 p{
+color: #313131;
+font-size: 11px;
+margin-bottom: 1rem;
+}
+
+.dragingpara2 label{
+    margin-left: 6rem;
+    padding: 0;
+    border: none;
+    background: none;
+}
+.addBannerRightSide{
+    padding-left: 3rem;
+}
+.LinesImagesBanner img{
+padding-bottom: 5rem;
+    width: 20.5rem;
+    height: 20rem;
+}
+.dragingpara2{
+    margin-top: -15rem;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+}
+.dragingpara2 p{
+    text-align: center;
+    width: 8rem;
+    font-size: 12px;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+}
+.formStartBanner{
+    margin-top: 4rem;
+}
+.formStartBanner .mb-3 label{
+   font-size: 16px; 
+   font-weight: 400;
+}
+.formStartBanner .mb-3 input{
+    box-shadow: 0px 0px 2px rgb(118, 108, 108);
+    height: 4rem;
+    width: 45rem;
+
+}
+
+
+
+.submitButton button{
+    border: none;
+    background: none;
+    margin-top: 3rem;
+    margin-left: 0rem;
+}
+.startTime{
+    margin-top: -1rem;
+}
+.startTime .row-cols-3 .timeHeading p{
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.startTime h5{
+    margin-bottom: 2rem;
+}
+
+
+
+.TimeCols label.form-check-label{
+    margin-left: 5px;
+    font-size: 11px;
+}
+.TimeCols input::placeholder{
+    color: silver;
+
+}
+.TimeCols .secondInput input[type="number"]{
+    margin-left: -1.8rem;
+}
+.TimeCols .col img {
+width: 7px;
+margin-left: 3px;
+margin-top: 12px;
+}
+
+
+.dateBanner::-webkit-datetime-edit { padding: 0px; }
+.dateBanner::-webkit-datetime-edit-fields-wrapper { color: silver;font-size: 11px; margin-bottom: 0.2rem;}
+.dateBanner::-webkit-datetime-edit-text { color: silver; padding: 0 0.3em; }
+.dateBanner::-webkit-datetime-edit-month-field { color: silver;text-transform:uppercase;}
+.dateBanner::-webkit-datetime-edit-day-field { color: silver;text-transform:uppercase;margin-left: 0.6rem; }
+.dateBanner::-webkit-datetime-edit-year-field { color: silver;text-transform:uppercase; }
+
+
+.timecols2 .col  img{
+    margin-left: -1.3rem;
+}
+.secondInput2 select{
+    margin-left: -5rem;
+}
+.TimeCols select{
+    width: 45px;
+    height: 50px;
+    box-shadow: 0px 0px 1px rgb(118, 108, 108);
+    border: 1px solid rgb(206, 194, 194);
+    border-radius: 5px; 
+    font-size: 13px;
+    padding: 7px; 
+}
+
+.buttonSubmit{
+    background: #fbd07a;
+    width: 13rem;
+    height: 3.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    border: none;
+  }
+  .dateBanner
+  {
+    width: 11rem;
+    height: 2.9rem;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 1rem;
+    border: 1px solid #dadde0;
+  }
+  .form-control{
+    width: 45rem;
+    height: 3rem;
+    padding: 0.813rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    color: #B9B9B9;
+    font-size: 0.8rem;
+}
+.form-controlPrice{
+    width: 21rem;
+    height: 3rem;
+    padding: 0.813rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    color: #B9B9B9;
+    font-size: 0.8rem;
+}
+.textareScroll{
+    padding: 0.813rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    color: #B9B9B9;
+    font-size: 0.8rem;
+    width: 45rem;
+}
+.timeEdit{
+font-size: 12px;
+font-weight: 400;
+color: #9E9D9D;
+opacity: 90%;
+}
+.exceedScreen p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:0px) and (max-width:1000px) {
+    .exceedContainer{
+    display: none;
+    }
+   
+}
+@media screen and (min-width:1000px) {
+    .exceedScreen{
+    display: none;
+    }
+   
+}
+@media screen and (min-width:1442px) {
+    .exceedContainer{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+.buttonSubmit{
+    background: #fbd07a;
+    width: 13rem;
+    height: 3.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    border: none;
+  }
+  .seoContainer{
+    border: 3px solid;
+    width: 65rem;
+    margin-top: 4.5rem;
+    height: 393px;
+  }
+  .SeoFields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .seoHeading{
+display: flex;
+justify-content: center;
+padding-top: 1rem;
+padding-bottom: 0rem;
+  }
+  .form-controltextarea{
+    height: 115px;
+  }
+  .form-controlSeo{
+    width: 813px;
+  }
+  .characterEditSeo{
+    position: relative;
+    left: 22rem;
+  }
+  .form-seodescriptionheight{
+    height: 115px;
+  }

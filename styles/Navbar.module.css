@@ -1,0 +1,245 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+ .navbarImage{
+	width: 6.25rem;
+    height: 6.375rem;
+	margin-left: 80px;
+}
+.navbarHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 105px;
+	padding: 0 2rem;
+	background-color: #270f33;
+    z-index: 2;
+}
+
+.newNavbarA a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    /* height: 32px; */
+    margin-left: 0px;
+    text-decoration: none;
+    padding: 1rem;
+    margin-top: -18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.newNavbarA .atag:hover{
+	color: #FBD07A;
+}
+
+.navbarHeader .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+	visibility: collapse;
+	display: none;
+}
+.search_input{
+	background: none;
+    border-radius: 20px;
+    outline: navajowhite;
+    outline: none;
+    border: 1px solid #D1D0D0;
+	width: 338px;
+    height: 35px;
+	position: relative;
+	left: -11px;
+	color:#D1D0D0;
+}
+.FaSearch{
+	position: absolute;
+	top: 2.8rem;
+}
+.navbarHeader div,
+.newNavbarA {
+	display: flex;
+	align-items: center;
+	margin-right: 80px;
+    margin-top: 20px;
+}
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+	.newNavbarA a {
+		color: #ffffff;
+		text-decoration: none;
+		font-family: "Roboto",sans-serif;
+		font-size: 15px;
+		padding: 12px;
+		height: 32px;
+		margin-left: 0px;
+		text-decoration: none;
+		font-family: "Roboto";
+		margin-top: -8px;
+		position: relative;
+		left: 2rem;
+	}
+}
+@media only screen and (min-width:1200px) and (max-width: 1358px) {
+ 
+	.newNavbarA a {
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 17px;
+		padding: 14px;
+		height: 32px;
+		margin-left: 0px;
+		text-decoration: none;
+		font-family: "Roboto",sans-serif;
+		margin-top: -19px;
+		position: relative;
+		left: 2rem;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.navbarHeader .nav-btn {
+		visibility: inherit;
+
+		opacity: 1;
+		color: white;
+		display: block;
+    visibility: inherit;
+	}
+
+	.navbarHeader .newNavbarA {
+		position: fixed;
+		top: -20px;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color:#000000;
+		transition: 0.7s;
+		transform: translateY(-100vh);
+        z-index: 4;
+        opacity: 90%;
+	}
+
+	.navbarHeader .responsive_nav {
+		transform: none;
+	}
+
+	.newNavbarA .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+		color: white;
+	}
+
+	.newNavbarA a {
+		font-size: 1.5rem;
+        background: none;
+        color: #FBD07A;
+        font-size: 15px;
+
+	}
+}
+@media only screen and (min-width: 1200px) and (max-width:1440px) {
+
+.navbarImage{
+	margin-left: 3rem;
+}
+.newNavbarA {
+	
+	margin-right: 30px;
+}
+}
+@media only screen and (min-width: 1442px) and (max-width:1900px) {
+	.navbarHeader{
+		display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img.navbarImage {
+    position: relative;
+    left: -0.5rem;
+}
+}
+@media screen and (min-width:1900px) and (max-width:2500px) {
+	.navbarHeader{
+		display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newNavbarA{
+	margin-left: 3rem;
+}
+img.navbarImage {
+    position: relative;
+    left: -3.5rem;
+}
+
+}
+@media screen and (min-width:2500px) and (max-width:2600px) {
+	.navbarHeader{
+		display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newNavbarA{
+	position: relative;
+    left: 92px;
+}
+img.navbarImage {
+    position: relative;
+	left: -6rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+}
+@media screen and (min-width:2600px) {
+	.navbarHeader{
+		display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newNavbarA{
+	margin-left: 5rem;
+}
+img.navbarImage {
+    position: relative;
+    left: -3rem;
+}
+
+}
+@media only screen and (min-width: 320px) and (max-width:767px) {
+	.navbarImage{
+		
+			margin-left: -1.8rem;
+			width: 6rem;
+			margin-top: 0px;
+		}
+.firstSearchBar{
+	display: none;
+}
+	}
+	@media only screen and (min-width: 767px) and (max-width:1200px) {
+		.navbarImage{
+		
+			margin-left: 0rem;
+			width: 6rem;
+		}
+		.firstSearchBar{
+			margin-left: -5rem;
+		}
+	}
+	@media(min-width:2558px){
+		.navbarHeader{
+		
+		height: 125px;
+	}
+	}

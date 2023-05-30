@@ -1,0 +1,125 @@
+.form_container{
+    background-color: aliceblue;
+    background: #270F33;
+
+    padding: 52px 150px;
+    background: rgba(39, 15, 51, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_container{
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+.logincontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.form_heading{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.form_margin{
+    margin-top: 50px;
+}
+.form_margin_bottom{
+    margin-top: 25px;
+}
+.from_input{
+    width: 437px;
+    height: 58px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding-left: 8px;
+    font-size: 1rem;
+}
+.form_btn_container{
+    margin-left: 3px;
+    padding: 10px 161px;
+    background: #FBD07A;
+    color: black;
+    margin-bottom: 20px;
+}
+.form_style{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.form_style_container{
+    margin-top: 10px;
+}
+.form_style h2{
+    margin-left: 59px;
+    width: 235px;
+    margin-top: 15px;
+}
+.form_h2{
+
+
+    font-family: "Popinns";
+    font-size: 25px;
+}
+.form_btn_container{
+    margin-top: 40px;
+    margin-bottom: 75px;
+    color: white;
+    padding: 15px 192px;
+    background: rgba(251, 208, 122, 1);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.login_image_left{
+    height: 842.5px;
+    width: 100%;
+}
+.form-label {
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.login_logo{
+    width: 228px;
+    height: 230px;
+}
+/* (1024x768) iPad 1 & 2, Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* insert styles here */
+
+}
+
+/* (2048x1536) iPad 3 */
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+    /* insert styles here */
+}
+
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    /* insert styles here */
+}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+    /* insert styles here */
+}
+
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+    /* insert styles here */
+}
+
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    /* insert styles here */
+}
+@media screen and (min-width:0px) and (max-width:1000px) {
+    .logincontainer{
+        display: none;
+    }
+    }

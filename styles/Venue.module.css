@@ -1,0 +1,2519 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+  .event_rowStart {
+    width: 100%;
+  }
+
+  .card-img-top5 {
+    width: 207%;
+  }
+  .event_Col2{
+    margin-top: -3rem;;
+  }
+  .textareScroll{
+    padding:14px; 
+    width: 100%;
+     border-radius:8px;
+     font-size:1rem;
+     border:1px solid #D9D9D9;
+     color:#867e7e;
+     height: 143px;
+   }
+  .form-controlSelect{
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 100%;
+    height: 3rem;
+    padding: 0.813rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    color: #B8B8B8;
+    font-size: 1rem;
+  }
+  .contactHeadingsh1{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .contactHeadingsP{
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .buttonSubmit{
+    background: #fbd07a;
+    width: 13rem;
+    height: 3.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    border: none;
+  }
+  .submitButton{
+    display: flex;
+    justify-content: center;
+  }
+  .PosMessageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .popContainer{
+position: fixed;
+top: 9rem;
+z-index: 1;
+  }
+  .displayPopUp{
+width: 648px;
+height: 310.85px;
+background: #FFFFFF;
+border-radius: 7.88961px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+  .headingPopsChilds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.headingPopsChilds h3{
+  width: 343px;
+  height: 26px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  
+}
+.headingPopsChilds p{
+  width: 235px;
+  height: 19px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.CloseButtonContainer{
+  display: flex;
+  justify-content: center;
+}
+  .PopClose{
+    width: 109.4px;
+    height: 32.61px;
+    background: #FBD07A;
+    display: flex;
+    border-radius: 2.62987px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .CloseButton{
+    border: none;
+    width: 36px;
+    height: 15px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: transparent;
+    
+  }
+  .form-control{
+    width: 100%;
+    height: 3rem;
+    padding: 0.813rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    color: #B8B8B8;
+    font-size: 1rem;
+}
+.form-control-date{
+  width: 100%;
+height: 3rem;
+padding: 0.813rem;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
+color: #B8B8B8;
+font-size: 1rem;
+text-transform: uppercase;
+}
+.customcb {
+  width: 17px;
+  height: 17px;
+  margin: 2px 0 2px 0;
+  /* background: #ddd; */
+  border-radius: 100%;
+  position: relative;
+  /* box-shadow: 0 1px 1px rgb(0 0 0 / 50%); */
+  border: 2px solid black;
+}
+.customcb label.inner {
+  display: block;
+  width: 9px;
+  height: 9.75px;
+  border-radius: 100px;
+  transition: all .5s ease;
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 1;
+  background: #eee;
+  /* box-shadow: inset 0 1px 1px rgb(0 0 0 / 50%); */
+}
+.customcb label.outer {
+  margin-left: 21px;
+  position: relative;
+  top: -0.3rem;
+}
+.customcb [type=checkbox] {
+  display: none
+}
+.red.customcb input[type=checkbox]:checked+label.inner {
+  background:black;
+}
+.red.customcb input[type=checkbox]:disabled+label.inner {
+  background:black;
+}
+.form-label{
+  font-family: "Roboto",sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+margin-bottom: 0.5rem;
+margin-top: 1rem;
+width: 100%;
+
+}
+.row{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-flow: wrap-reverse;
+  gap: 0.6rem;
+  padding: 0.4rem;
+}
+#row{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-flow: wrap-reverse;
+  gap: 0.6rem;
+  padding: 0.4rem;
+}
+.form-control-text{
+  width: 100%;
+height: 3rem;
+padding: 0.813rem;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
+color: #B8B8B8;
+font-size: 1rem;
+text-transform: uppercase;
+}
+.labelSpan
+{
+  display: flex;
+  align-items: center;
+}
+.form-control-textDate{
+  /* text-transform: capitalize; */
+}
+  .sideImageheading {
+    font-family: "Rochester", cursive;
+    font-size: 3.125rem;
+    color: #000000;
+  }
+  .event_Col1 img {
+    border: 20px solid #fbd07a;
+    border-top-left-radius: 9.375rem;
+    z-index: 1;
+   
+    width: 43.438rem;
+      height: 27.125rem;
+  }
+  
+  .event_Col2 img {
+    border: 20px solid #270F33;
+    border-bottom-right-radius: 169.737px;
+    z-index: -1;
+    position: relative;
+  
+    right: 5.563rem;
+    top: 0.125rem;
+    width: 43.313rem;
+    height: 26.688rem;
+  }
+  
+  .card-body .card-padding {
+    position: relative;
+    top: 3.125rem;
+    left: 5.313rem;
+  }
+  .card-position {
+    position: relative;
+    top: 3.125rem;
+    left: 3.938rem;
+  }
+  .card-items {
+    position: relative;
+    top: 2.813rem;
+    width: 32.125rem;
+    height: 8rem;
+    text-align: center;
+  }
+  .Book_Venue_container h5 {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    margin-bottom: 8%;
+    font-size: 1.875rem;
+    font-weight: 700;
+    font-family: "Roboto",sans-serif;
+  }
+  .Book_Venue_description {
+    display: flex;
+    flex-direction: column;
+    width: 79.188rem;
+    height: 4.875rem;
+    text-align: center;
+    font-size: 1.625rem;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    line-height:1.875rem;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+  }
+  .Book_button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+    margin-top: 8px;
+  }
+  .Book_button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.375rem;
+    border: 1.28529px solid #fbd07a;
+    border-radius: 12.8529px;
+    padding: 0.625rem 1.625rem;
+  }
+  
+  
+  
+  .event_rowStart {
+    margin-top: 1.25rem;
+  }
+  .event_main_section {
+    display: flex;
+    margin: auto;
+  }
+  
+  .section_main_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    margin-left: 10%;
+    position: absolute;
+    top: 117rem;
+    margin-top: 60px;
+  }
+  
+  .para_section {
+    
+    width: 31%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 3.063rem;
+    margin-right: 10%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    text-align: center;
+  
+    color: #000000;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    background: url(../Images/backgroundFive.png);
+    position: relative;
+    bottom:0rem;
+    top: 4rem;
+    width: 100%;
+    padding: 3rem;
+    margin-bottom: 23rem;
+  }
+  
+  .top_image img {
+    padding: 10px;
+  }
+
+  .horizontal_image img {
+    padding: 10px;
+  }
+ 
+  .main_horizontal_img img {
+    padding: 10px;
+  }
+
+  
+  .section_main_container span img {
+    position: relative;
+    bottom: -57px;
+    right: 8px;
+  }
+  .corner_left {
+    position: relative;
+    left: 35.5rem;
+    bottom: 3.625rem;
+  }
+  .whatsappImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 13rem;
+    margin-left: 1rem;
+  }
+  
+  .whatsapp a{
+    margin-left: 1.5rem;
+  }
+   .card_heading   h5{
+    font-family: 'Rochester';
+      font-size: 46px;
+      padding: -38px;
+      width: 484px;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      bottom: 81px;
+      top: -66px;
+  
+  }
+  .section_main_left{
+    margin-top: -4rem;
+  }
+  .main_top_venue_head{
+    font-size: 50px;
+  }
+  .cardevent1{
+    margin-top: 2rem;
+    font-size: 50px;
+    font-family: 'Rochester', cursive;
+  }
+  .event_main_section{
+    display: flex;
+    margin: auto;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 2.5rem;
+  }
+
+  /* 320 to 358 */
+  @media screen and (min-width:320px) and (max-width:360px) {
+    .event_main_section {
+      display: flex;
+      margin-left: 1rem;
+  }
+  .venuesStarting {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0rem;
+  }
+  .buttonSubmit{
+    width: 284px;
+   }
+   .contactForm{
+    position: relative;
+    top: -7rem;
+   }
+   .checkedCheckImage{
+    width: 66px;
+    height: 63px;
+   }
+   .PopClose{
+    width: 67px;
+    height: 20px;
+   }
+   .CloseButton{
+    font-size: 6px;
+   }
+   .displayPopUp{
+    width: 232px;
+    height: 248px;
+   }
+   .headingPopsChilds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   .headingPopsChilds h3
+   {
+    font-size: 12px;
+    height: 14px;
+   }
+   .headingPopsChilds p{
+    font-size: 8px;
+    height: 9px;
+   }
+  .textareScroll{
+    font-size: 12px;
+    width: 284px;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex-flow:column;
+  }
+  .form-control{
+    font-size: 12px;
+    width: 284px;
+  }
+ 
+  
+  .form-label{
+    font-size: 14px;
+    width: 14rem;
+  }
+  .form-controlSelect{
+    font-size: 12px;
+    width: 284px;
+  }
+  .form-control-text{
+    font-size: 12px;
+    width: 284px;
+  }
+    .event_Col1.col.container {
+      margin-left: -1rem;
+  }
+    .event_Col1 img {
+      border: 12px solid #fbd07a;
+      border-top-left-radius: 4.375rem;
+      z-index: 1;
+      width: 170px;
+      height: 121px;
+    position: relative;
+    left: 1.7rem;
+  }
+  .contactHeadingsh1{
+    font-size: 30px;
+
+  }
+  .contactHeadingsP{
+    font-size: 16px;
+  }
+  .event_Col2 img {
+    border: 12px solid #270F33;
+    border-bottom-right-radius: 4.375rem;
+    z-index: -1;
+    position: relative;
+    right: -6.437rem;
+    top: -20.875rem;
+    width: 170px;
+    height: 121px;
+  }
+  
+  h5.cardEvent {
+    position: relative;
+    top: -24.7rem;
+    font-size: 11px;
+    width: 128px;
+    left: 4.5rem;
+  }
+  h5.cardEight {
+    font-size: 17px;
+    width: 9rem;
+    top: -4rem;
+    position: relative;
+  }
+  .Book_Venue_container.container {
+    margin-top: -19rem;
+  }
+  .Book_Venue_description {
+    display: flex;
+    flex-direction: column;
+    width: 79.188rem;
+    height: 16.875rem;
+    text-align: center;
+    font-size: 17.625px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    line-height: 1.875rem;
+    flex-wrap: wrap;
+    display: contents;
+  }
+  .section_main_left {
+    margin-top: -79.4rem;
+    margin-left: -0.5rem;
+  }
+  .Book_Venue_container {
+    margin-top: -8rem;
+}
+  .top_image img {
+    padding: 8px;
+    width: 9rem;
+    height: auto;
+  }
+  .horizontal_image img {
+    padding: 10px;
+    width: 9rem;
+    height: auto;
+
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 18rem;
+    height: auto;
+
+  }
+  .corner_left {
+    position: relative;
+    left: 15.2rem;
+    color: black;
+    bottom: 3.625rem;
+    width: 3rem;
+  }
+  .section_main_container span img {
+    position: relative;
+    bottom: -53px;
+    right: 6px;
+    width: 3rem;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    background: url(../Images/backgroundFive.png);
+    position: relative;
+    bottom: -9rem;
+    margin-top: 11rem;
+    width: 77%;
+    margin-left: 1rem;
+    margin-bottom: 15rem;
+  
+  }
+  .event_Col2{
+    margin-top: -11rem;;
+  }
+  .para_section {
+    width: 231px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 6.063rem;
+    margin-top: 16rem;
+    height: 604px;
+    margin-right: -27%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.313rem;
+    text-align: center;
+    color: #000000;
+    width: 14rem;
+  }
+  .whatsappImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-bottom: -6rem;
+  }
+  .cardevent1{
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+  .event_main_section {
+    display: flex;
+    margin: 7px;
+    margin-left: 21rem;
+    justify-content: center;
+    align-content: center;
+    /* margin: auto; */
+    flex-direction: row;
+    width: auto;
+  }
+  .event_Col2 img {
+    border: 12px solid #270F33;
+    border-bottom-right-radius: 5.375rem;
+    z-index: -1;
+    position: relative;
+    right: 22.2rem;
+    top: 0rem;
+  }
+  .cardevent1
+  {
+    font-size: 12px;
+  }
+  h5.cardEvent {
+    margin-top: 2rem; 
+    position: relative;
+    top: -3rem;
+    font-size: 11px;
+    width: 177px;
+    left: -24.8rem;
+  }
+  .buttonSubmit{
+    width: 284px;
+   }
+  }
+  
+    @media screen and (min-width:360px) and (max-width:480px) {
+    
+  .cardevent1{
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+  .contactHeadingsh1{
+    font-size: 30px;
+
+  }
+  .form-label{
+    font-size: 14px;
+    width: 14rem;
+  }
+  
+.textareScroll{
+  font-size: 12px;
+  width: 284px;
+}
+.contactForm{
+  position: relative;
+  top: -7rem;
+ }
+.row{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex-flow:column;
+}
+.form-control{
+  font-size: 12px;
+  width: 284px;
+}
+.checkedCheckImage{
+  width: 66px;
+  height: 63px;
+ }
+ .PopClose{
+  width: 67px;
+  height: 20px;
+ }
+ .CloseButton{
+  font-size: 6px;
+ }
+ .displayPopUp{
+  width: 232px;
+  height: 248px;
+ }
+ .headingPopsChilds{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+ .headingPopsChilds h3
+ {
+  font-size: 12px;
+  height: 14px;
+ }
+ .headingPopsChilds p{
+  font-size: 8px;
+  height: 9px;
+ }
+  
+  .form-control-text{
+    font-size: 12px;
+  }
+  .form-controlSelect{
+    font-size: 12px;
+    width: 284px;
+  }
+  .contactHeadingsP{
+    font-size: 16px;
+  }
+  .venuesStarting {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0rem;
+  }
+  .event_Col2{
+    margin-top: -11rem;;
+  }
+    .event_Col1.col.container {
+      margin-left: -1rem;
+  }
+    .event_Col1 img {
+      border: 12px solid #fbd07a;
+      border-top-left-radius: 4.375rem;
+      z-index: 1;
+      width: 174px;
+      height: 121px;
+      position: relative;
+      left: 1.2rem;
+  }
+  .event_Col2 img {
+    border: 12px solid #270F33;
+    border-bottom-right-radius: 4.375rem;
+    z-index: -1;
+    position: relative;
+    right: -9.437rem;
+    top: -20.875rem;
+    width: 174px;
+    height: 121px;
+  }
+  
+  h5.cardEvent {
+    /* margin-top: 2rem; */
+    position: relative;
+    top: -24.5rem;
+    font-size: 12px;
+    width: 131px;
+    left: 6.5rem;
+  }
+  h5.cardEight {
+    font-size: 17px;
+    width: 9rem;
+    top: -4rem;
+    position: relative;
+  }
+  .Book_Venue_container.container {
+    margin-top: -19rem;
+  }
+  .Book_Venue_description {
+    display: flex;
+    flex-direction: column;
+    width: 79.188rem;
+    height: 16.875rem;
+    text-align: center;
+    font-size: 17.625px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    line-height: 1.875rem;
+    flex-wrap: wrap;
+    display: contents;
+  }
+  .section_main_left {
+    margin-top: -78rem;
+    margin-left: 0;
+  }
+  .Book_Venue_container {
+    margin-top: -7rem;
+}
+  .top_image img {
+    padding: 8px;
+    width: 10rem;
+    height: auto;
+  }
+  .horizontal_image img {
+    padding: 10px;
+    width: 10rem;
+    height: auto;
+
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 20rem;
+    height: auto;
+
+  }
+  .corner_left {
+    position: relative;
+    left: 17.2rem;
+    color: black;
+    bottom: 3.625rem;
+    width: 3rem;
+  }
+  .section_main_container span img {
+    position: relative;
+    bottom: -52px;
+    right: 6px;
+    width: 3rem;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    background: url(../Images/backgroundFive.png);
+    position: relative;
+    bottom: -9rem;
+    margin-top:11rem;
+    width: 77%;
+    margin-left: 1rem;
+    margin-bottom: 19rem;
+  }
+  .para_section {
+    width: 231px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 6.063rem;
+    margin-top: 20rem;
+    height: 604px;
+    margin-right: -7%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.313rem;
+    text-align: center;
+    color: #000000;
+    width: 14rem;
+    
+  }
+  .whatsappImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-bottom: -6rem;
+  }
+  .event_main_section {
+    display: flex;
+    margin: 7px;
+    margin-left: 21rem;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    width: auto;
+    margin-bottom: -5rem;
+  }
+  .event_Col2 img {
+    border: 12px solid #270F33;
+    border-bottom-right-radius: 5.375rem;
+    z-index: -1;
+    position: relative;
+    right: 21rem;
+    top: 0rem;
+  }
+  .cardevent1
+  {
+    font-size: 12px;
+  }
+  h5.cardEvent {
+    margin-top: 2rem; 
+    position: relative;
+    top: -3rem;
+    font-size: 11px;
+    width: 177px;
+    left: -24.2rem;
+  }
+  .buttonSubmit{
+    width: 284px;
+   }
+  }
+
+  @media screen and (min-width:480px) and (max-width:576px) {
+    .event_main_section {
+      display: flex;
+      margin: 7px;
+      margin-left: 2.7rem;
+  }
+  .contactHeadingsh1{
+    font-size: 30px;
+
+  }
+  .textareScroll{
+    font-size: 12px;
+    width: 284px;
+  }
+  .contactHeadingsP{
+    font-size: 16px;
+  }
+  .cardevent1{
+    margin-top: 2rem;
+    font-size:20px;
+  }
+  .contactForm{
+    position: relative;
+    top: -7rem;
+   }
+  .form-label{
+    font-size: 14px;
+  }
+  .checkedCheckImage{
+    width: 66px;
+    height: 63px;
+   }
+   .PopClose{
+    width: 67px;
+    height: 20px;
+   }
+   .CloseButton{
+    font-size: 6px;
+   }
+   .displayPopUp{
+    width: 232px;
+    height: 248px;
+   }
+   .headingPopsChilds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   .headingPopsChilds h3
+   {
+    font-size: 12px;
+    height: 14px;
+   }
+   .headingPopsChilds p{
+    font-size: 8px;
+    height: 9px;
+   }
+  .row{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex-flow:column;
+  }
+  .form-control{
+    font-size: 12px;
+    width: 284px;
+  }
+  .form-control-text{
+    font-size: 12px;
+    width: 284px;
+  }
+  .form-controlSelect{
+    font-size: 12px;
+    width: 284px;
+  }
+    .venuesStarting{
+      width: 100%;
+      overflow: hidden;
+    }
+    .event_Col1.col.container {
+      margin-left: -2.4rem;
+  }
+  .event_Col2{
+    margin-top: -11rem;;
+  }
+  .footer form {
+    display: flex;
+    position: relative;
+    left: -20px;
+  }
+    .event_Col1 img {
+      border: 12px solid #fbd07a;
+      border-top-left-radius: 4.375rem;
+      z-index: 1;
+      width: 244px;
+      height: 210px;
+      position: relative;
+      left: 1rem;
+  }
+ 
+
+  h5.cardEight {
+    font-size: 17px;
+    width: 9rem;
+    top: -4rem;
+    position: relative;
+  }
+  .Book_Venue_container.container {
+    margin-top: -19rem;
+  }
+  .Book_Venue_description {
+    display: flex;
+    flex-direction: column;
+    width: 79.188rem;
+    height: 16.875rem;
+    text-align: center;
+    font-size: 17.625px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    line-height: 1.875rem;
+    flex-wrap: wrap;
+    display: contents;
+  }
+  .section_main_left {
+    margin-top: -61rem;
+    margin-left: 4rem;
+  }
+  .top_image img {
+    padding: 8px;
+    width: 10rem;
+    height: auto;
+
+  }
+  .horizontal_image img {
+    padding: 10px;
+    width: 10rem;
+    height: auto;
+
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 20rem;
+    height: auto;
+
+  }
+  .corner_left {
+    position: relative;
+    left: 16.5rem;
+    color: black;
+    bottom: 3.625rem;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    background: url(../Images/backgroundFive.png);
+    position: relative;
+    bottom: -9rem;
+    margin-top: 15rem;
+    width: 73%;
+    margin-left: 1rem;
+    margin-bottom: 17rem;
+  
+  }
+  .buttonSubmit{
+    width: 284px;
+   }
+  .para_section {
+    width: 264px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 6.063rem;
+    margin-top: 20rem;
+    height: 604px;
+    margin-right: 0%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.313rem;
+    text-align: center;
+    color: #000000;
+    width: 14rem;
+  }
+  .whatsappImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-bottom: -6rem;
+  }
+  .event_main_section {
+    display: flex;
+    margin: 7px;
+    margin-left: 19.5rem;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    width: auto;
+    margin-bottom: -5rem;
+  }
+  .event_Col2 img {
+    border: 12px solid #270F33;
+    border-bottom-right-radius: 5.375rem;
+    z-index: -1;
+    position: relative;
+    width: 244px;
+    height: 210px;
+    right: 19rem;
+    top: 0rem;
+  }
+  .cardevent1
+  {
+    font-size: 12px;
+  }
+  h5.cardEvent {
+    margin-top: 2rem; 
+    position: relative;
+    top: -3rem;
+    font-size: 11px;
+    width: 177px;
+    left: -20rem;
+  }
+  }
+  .venue_heading {
+   margin-top: 10px;
+  }
+  @media screen and (min-width:576px) and (max-width:767px) {
+    .event_main_section {
+      display: flex;
+      margin: 7px;
+      margin-left: 19.5rem;
+      justify-content: center;
+      align-content: center;
+      flex-direction: row;
+      width: auto;
+      margin-bottom: -5rem;
+    }
+    .event_Col2 img {
+      border: 12px solid #270F33;
+      border-bottom-right-radius: 5.375rem;
+      z-index: -1;
+      position: relative;
+      width: 300px;
+      height: 210px;
+      right: 16rem;
+    }
+    .contactForm{
+      position: relative;
+      top: -7rem;
+     }
+    .textareScroll{
+      font-size: 12px;
+      width: 284px;
+    }
+    .row{
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      flex-flow:column;
+    }
+    .checkedCheckImage{
+      width: 66px;  
+      height: 63px;
+     }
+     .PopClose{
+      width: 67px;
+      height: 20px;
+     }
+     .CloseButton{
+      font-size: 6px;
+     }
+     .displayPopUp{
+      width: 232px;
+      height: 248px;
+     }
+     .headingPopsChilds{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+     }
+     .headingPopsChilds h3
+     {
+      font-size: 12px;
+      height: 14px;
+     }
+     .headingPopsChilds p{
+      font-size: 8px;
+      height: 9px;
+     }
+    .form-control{
+      font-size: 12px;
+      width: 284px;
+    }
+    .form-label{
+      font-size: 14px;
+    }
+   .buttonSubmit{
+    width: 284px;
+   }
+    .form-controlSelect{
+      font-size: 12px;
+      width: 284px;
+    }
+    .event_Col2{
+      margin-top: -11rem;;
+    }
+    .cardevent1
+    {
+      font-size: 23px;
+    }
+    h5.cardEvent {
+      margin-top: 2rem; 
+      position: relative;
+      top: -3rem;
+      font-size: 15px;
+      width: 177px;
+      left: -16rem;
+    }
+    .venuesStarting{
+      width: 100%;
+      overflow: hidden;
+    }
+    .form-control-text{
+      font-size: 12px;
+      width: 284px;
+
+    }
+    .event_Col1.col.container {
+      margin-left: -2.4rem;
+  }
+    .event_Col1 img {
+      border: 12px solid #fbd07a;
+      border-top-left-radius: 4.375rem;
+      z-index: 1;
+      width: 300px;
+      height: 210px;
+  }
+  h5.cardEight {
+    font-size: 17px;
+    width: 9rem;
+    top: -4rem;
+    position: relative;
+  }
+  .Book_Venue_container.container {
+    margin-top: -19rem;
+  }
+  .Book_Venue_description {
+    display: flex;
+    flex-direction: column;
+    width: 79.188rem;
+    height: 16.875rem;
+    text-align: center;
+    font-size: 17.625px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    line-height: 1.875rem;
+    flex-wrap: wrap;
+    display: contents;
+  }
+  .section_main_left {
+    margin-top: -63rem;
+    margin-left: 12rem;
+  }
+  .top_image img {
+    padding: 8px;
+    width: 10rem;
+    height: auto;
+  }
+  .horizontal_image img {
+    padding: 10px;
+    width: 10rem;
+    height: auto;
+
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 20rem;
+    height: auto;
+
+  }
+  .corner_left {
+    position: relative;
+    left: 16.5rem;
+    color: black;
+    bottom: 3.625rem;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    background: url(../Images/backgroundFive.png);
+    position: relative;
+    bottom: -9rem;
+    margin-top: 8rem;
+    width: 73%;
+    margin-left: 1rem;
+    margin-bottom: 17rem;
+  
+  }
+  .para_section {
+    width: 231px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 6.063rem;
+    margin-top: 20rem;
+    height: 604px;
+    margin-right: 10%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-family: "Roboto",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.313rem;
+    text-align: center;
+    color: #000000;
+    width: 14rem;
+  }
+  .whatsappImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    margin-bottom: -6rem;
+  }
+  }
+  .venue_heading {
+   margin-top: 10px;
+  }
+  @media screen and (min-width:767px) and (max-width:991px) {
+    .venuesStarting{
+      overflow: hidden;
+    }
+    .form-label{
+      font-size: 13px;
+    }
+    .form-control{
+      font-size: 13px;
+    }
+    .form-controlSelect{
+      font-size: 13px;
+    }
+    .form-control-text{
+      font-size: 13px;
+    }
+    .spanCheckbox{
+      margin-left: 35px;
+    }
+    .event_Col1 img {
+      border: 20px solid #fbd07a;
+      border-top-left-radius: 9.375rem;
+      z-index: 1;
+      width: 24rem;
+      height: 23.125rem;
+      margin-left: 5.4rem;
+  }
+  .event_Col2 img {
+    border: 20px solid #270F33;
+    border-bottom-right-radius: 169.737px;
+    z-index: -1;
+    position: relative;
+    right: 5.563rem;
+    top: 0.125rem;
+    width: 24rem;
+    height: 23.688rem;
+  }
+  .card_heading h5 {
+    font-family: 'Rochester';
+    font-size: 31px;
+    padding: -38px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+    left: -132px;
+    top: -54px;
+  }
+    .Book_Venue_description {
+      display: flex;
+      flex-direction: row;
+      width: 44.188rem;
+      height: 16.875rem;
+      text-align: center;
+      font-size: 1.1rem;
+      font-family: "Roboto",sans-serif;
+      font-weight: 400;
+      line-height: 1.875rem;
+      flex-wrap: wrap;
+      margin-bottom: 5rem;
+  }
+  p.paraLetsChat1 {
+    width: 42rem;
+  }
+  p.paraLetsChat {
+    margin-left: -33rem;
+    margin-top: 4rem;
+  }
+  .section_main_left {
+    margin-top: -35rem;
+    margin-left: -1.4rem;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    position: relative;
+    bottom: -9rem;
+    width: 90%;
+    padding: 1rem;
+    margin-top: -16rem;
+    margin-bottom: 17rem;
+    margin-left: 33px;
+  }
+  .para_section {
+    width: 45%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 0.6rem;
+    margin-right: 2%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-size: 9px;
+   
+      font-size: 11px;
+      font-family: "Roboto",sans-serif;
+      line-height: 17px;
+    
+  }
+  .top_image img {
+    padding: 8px;
+    width: 10.5rem;
+    height: auto;
+  }
+  .horizontal_image img {
+    padding: 10px;
+  width: 10.5rem;
+  height: auto;
+
+    
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 21.8rem;
+  width: 20.9rem;
+  height: auto;
+    
+  }
+  .corner_left {
+    position: relative;
+    left: 17rem;
+    color: black;
+    bottom: 3.625rem;
+  }
+  .event_main_section {
+    display: flex;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+.checkedCheckImage{
+  width: 109px;
+  height: 103px;
+ }
+
+ 
+ .headingPopsChilds{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+ .headingPopsChilds h3
+ {
+  font-size: 22px;
+  height: 26px;
+ }
+ .headingPopsChilds p{
+  font-size: 16px;
+  height: 19px;
+ }
+ .cardevent1{
+  font-size: 33px;
+ }
+  
+  }
+  @media screen and (min-width:991px) and (max-width:1200px) {
+    .venuesStarting{
+      overflow: hidden;
+    }
+   
+     .headingPopsChilds{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+     }
+     .headingPopsChilds h3
+     {
+      font-size: 22px;
+      height: 26px;
+     }
+     .headingPopsChilds p{
+      font-size: 16px;
+      height: 19px;
+     }
+    .textareScroll{
+      width: 38rem;
+    position: relative;
+    left: -6px;
+    }
+    .lablesMain{
+      position: relative;
+      left: -15rem;
+    }
+    .spanCheckbox{
+      margin-left: 3rem;
+    }
+    .event_main_section {
+      display: flex;
+    
+  }
+    .event_rowStart.event_main_section.row.row-cols-1.row-cols-md-2.g-4.container {
+      margin-left: 3rem;
+  }
+    .event_Col1 img {
+      border: 20px solid #fbd07a;
+      border-top-left-radius: 9.375rem;
+      z-index: 1;
+      width: 30.438rem;
+      height: 23.125rem;
+  }
+  .event_Col2 img {
+    border: 20px solid #270F33;
+    border-bottom-right-radius: 169.737px;
+    z-index: -1;
+    position: relative;
+    right: 5.563rem;
+    top: 0.125rem;
+    width: 30.313rem;
+    height: 23.688rem;
+  }
+  .card_heading h5 {
+    font-family: 'Rochester';
+      font-size: 33px;
+      padding: -38px;
+      width: 23rem;
+      align-items: center;
+      position: relative;
+      bottom: 92px;
+      margin-left: -69px;
+      top: -67px;
+  }
+    .Book_Venue_description {
+      display: flex;
+      flex-direction: row;
+      width: 60.188rem;
+      height: 16.875rem;
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: "Roboto";
+      font-weight: 400;
+      line-height: 1.875rem;
+      flex-wrap: wrap;
+      margin-bottom: 5rem;
+  }
+  p.paraLetsChat1 {
+    width: 45rem;
+    margin-left: 5rem;
+  }
+  p.paraLetsChat {
+    margin-left: -33rem;
+    margin-top: 4rem;
+  }
+  .section_main_left {
+    margin-top: -16rem;
+    margin-left: -1rem;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    position: relative;
+    bottom: -9rem;
+    width: 100%;
+    padding: 3rem;
+    margin-top: -12rem;
+   
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      justify-self: center;
+      z-index: -1;
+      position: relative;
+      bottom: -9rem;
+      width: 90%;
+      padding: 1rem;
+      margin-top: -16rem;
+      margin-bottom: 17rem;
+      margin-left: 33px;
+  }
+  .para_section {
+    width: 39%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 0.6rem;
+    margin-right: 10%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-size: 11.5px;
+  }
+  .section_main_container{
+    position: absolute;
+    top: 109rem;
+  }
+  .top_image img {
+    padding: 8px;
+    width: 13rem;
+    width: 11.188rem;
+    height: auto;
+  }
+  .horizontal_image img {
+    padding: 10px;
+    width: 13rem;
+    width: 11.188rem;
+    height: auto;
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 22.6rem;
+    height:auto;
+  }
+  .corner_left {
+    position: relative;
+    left: 19rem;
+    color: black;
+    bottom: 3.625rem;
+  }
+  .form-label{
+    font-size: 17px;
+  }
+  .cardevent1{
+    font-size: 33px;
+  }
+  }
+  @media screen and (min-width:1200px) and (max-width:1399px) {
+    .venuesStarting{
+      overflow: hidden;
+    }
+    .event_rowStart.event_main_section.row.row-cols-1.row-cols-md-2.g-4.container {
+      margin-left: 3rem;
+  }
+  .textareScroll{
+    width: 45.4rem;
+  position: relative;
+  left: -6px;
+  }
+  .lablesMain{
+    position: relative;
+    left: -19rem;
+  }
+
+  .event_Col1 img {
+    border: 20px solid #fbd07a;
+    border-top-left-radius: 9.375rem;
+    z-index: 1;
+    width: 35.438rem;
+    height: 23.125rem;
+  }
+  .event_Col2 img {
+    border: 20px solid #270F33;
+    border-bottom-right-radius: 169.737px;
+    z-index: -1;
+    position: relative;
+    right: 5.563rem;
+    top: 0.125rem;
+    width: 35.313rem;
+    height: 23.688rem;
+  }
+  .card_heading h5 {
+    font-family: 'Rochester';
+    padding: -38px;
+    position: relative;
+    bottom: 97px;
+    margin-left: -91px;
+    position: relative;
+    font-size: 44px;
+    margin-bottom: 44px;
+    top: -44px;
+    width: 34rem;
+  }
+  .Book_Venue_description {
+    display: flex;
+    flex-direction: row;
+    width: 68.188rem;
+    height: 16.875rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    line-height: 1.875rem;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+  }
+  p.paraLetsChat1 {
+    width: 57rem;
+    margin-left: 5rem;
+  }
+  p.paraLetsChat {
+    margin-left: -42rem;
+    margin-top: 4rem;
+  }
+  .section_main_left {
+    margin-top: -8rem;
+    margin-left: -3rem;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    position: relative;
+    bottom: -9rem;
+    width: 100%;
+    padding: 3rem;
+    margin-top: -3rem;
+  }
+  .para_section {
+    width: 48%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 2.6rem;
+    margin-right: -2%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-size: 14.5px;
+  }
+  .top_image img {
+    padding: 8px;
+    width: 16rem;
+  }
+  .horizontal_image img {
+    padding: 10px;
+    width: 16rem;
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 32rem;
+  }
+  .corner_left {
+    position: relative;
+    left: 28rem;
+    color: black;
+    bottom: 3.625rem;
+  }
+ .spanCheckbox{
+  margin-left: 3rem;
+ }
+  }
+  @media screen and (min-width:1399px) and (max-width:1440px) {
+    .card_heading h5 {
+      font-family: 'Rochester';
+      font-size: 50px;
+      padding: -38px;
+      width: 554px;
+      align-items: center;
+      position: relative;
+      bottom: 81px;
+      top: -66px;
+  }
+  }
+  @media screen and (min-width:1900px) and (max-width:5000px) {
+    .sectionParaAndImages {
+      display: flex;
+      justify-content: center;
+  }
+  .right_section{
+    width: 69%;
+  }
+  .section_main_container {
+    display: flex;
+    z-index: 1;
+    margin-left: -24%;
+    position: absolute;
+    top: 129rem;
+    justify-content: center;
+  }
+  }
+  @media screen and (min-width:2500px) and (max-width:5000px) {
+    .right_section{
+      width: 57%;
+    }
+  @media screen and (min-width:1200px) and (max-width:1300px){
+    .venuesStarting{
+      overflow: hidden;
+    }
+    .event_rowStart.event_main_section.row.row-cols-1.row-cols-md-2.g-4.container {
+      margin-left: 5rem;
+  }
+    .event_Col1 img {
+      border: 20px solid #fbd07a;
+      border-top-left-radius: 9.375rem;
+      z-index: 1;
+      width: 30.438rem;
+      height: 23.125rem;
+  }
+  .event_Col2 img {
+    border: 20px solid #003831;
+    border-bottom-right-radius: 169.737px;
+    z-index: -1;
+    position: relative;
+    right: 5.563rem;
+    top: 0.125rem;
+    width: 30.313rem;
+    height: 23.688rem;
+  }
+  .card_heading h5 {
+    font-family: 'Rochester';
+    font-size: 35px;
+    padding: -38px;
+    width: 16rem;
+    align-items: center;
+    /* text-align: center; */
+    position: relative;
+    bottom: 81px;
+  }
+    .Book_Venue_description {
+      display: flex;
+      flex-direction: row;
+      width: 60.188rem;
+      height: 16.875rem;
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: "Roboto",sans-serif;
+      font-weight: 400;
+      line-height: 1.875rem;
+      flex-wrap: wrap;
+      margin-bottom: 5rem;
+  }
+  p.paraLetsChat1 {
+    width: 45rem;
+    margin-left: 5rem;
+  }
+  p.paraLetsChat {
+    margin-left: -33rem;
+    margin-top: 4rem;
+  }
+  .section_main_left {
+    margin-top: -5rem;
+    margin-left: 1rem;
+  }
+  .right_section {
+  
+   
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      justify-self: center;
+      z-index: -1;
+      position: relative;
+      bottom: -9rem;
+      width: 90%;
+      padding: 1rem;
+      margin-top: -16rem;
+      margin-bottom: 17rem;
+      margin-left: 33px;
+  }
+  .para_section {
+    width: 36%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 0.6rem;
+    margin-right: 10%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-size: 11.5px;
+  }
+  .section_main_container{
+    position: absolute;
+    top: 109rem;
+  }
+  .top_image img {
+    padding: 8px;
+    width: 13rem;
+    width: 11.188rem;
+  }
+  .horizontal_image img {
+    padding: 10px;
+    width: 13rem;
+    width: 11.188rem;
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 22.6rem;
+  }
+  .corner_left {
+    position: relative;
+    left: 19rem;
+    color: black;
+    bottom: 3.625rem;
+  }
+  }
+  @media screen and (min-width:1300px) and (max-width:1400px){
+    .venuesStarting{
+      overflow: hidden;
+    }
+    .event_rowStart.event_main_section.row.row-cols-1.row-cols-md-2.g-4.container {
+      margin-left: 5rem;
+  }
+    .event_Col1 img {
+      border: 20px solid #fbd07a;
+      border-top-left-radius: 9.375rem;
+      z-index: 1;
+      width: 30.438rem;
+      height: 23.125rem;
+  }
+  .event_Col2 img {
+    border: 20px solid #003831;
+    border-bottom-right-radius: 169.737px;
+    z-index: -1;
+    position: relative;
+    right: 5.563rem;
+    top: 0.125rem;
+    width: 30.313rem;
+    height: 23.688rem;
+  }
+  .card_heading h5 {
+    font-family: 'Rochester';
+    font-size: 35px;
+    padding: -38px;
+    width: 16rem;
+    align-items: center;
+    /* text-align: center; */
+    position: relative;
+    bottom: 81px;
+  }
+    .Book_Venue_description {
+      display: flex;
+      flex-direction: row;
+      width: 60.188rem;
+      height: 16.875rem;
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: "Roboto",sans-serif;
+      font-weight: 400;
+      line-height: 1.875rem;
+      flex-wrap: wrap;
+      margin-bottom: 5rem;
+  }
+  p.paraLetsChat1 {
+    width: 45rem;
+    margin-left: 5rem;
+  }
+  p.paraLetsChat {
+    margin-left: -33rem;
+    margin-top: 4rem;
+  }
+  .section_main_left {
+    margin-top: -2rem;
+    margin-left: 1rem;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    position: relative;
+    bottom: -9rem;
+    width: 83%;
+    padding: 1rem;
+    margin-top: -16rem;
+    margin-bottom: 17rem;
+    margin-left: 88px;
+  }
+  .para_section {
+    width: 33%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 0.6rem;
+    margin-right: 6%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-size: 11.5px;
+  }
+  .section_main_container{
+    position: absolute;
+    top: 109rem;
+  }
+  .top_image img {
+    padding: 8px;
+    width: 13rem;
+    width: 11.188rem;
+  }
+  .horizontal_image img {
+    padding: 10px;
+    width: 13rem;
+    width: 11.188rem;
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 22.6rem;
+  }
+  .corner_left {
+    position: relative;
+    left: 19rem;
+    color: black;
+    bottom: 3.625rem;
+  }
+  }
+  @media screen and (min-width:1400px) and (max-width:1500px){
+    .venuesStarting{
+      overflow: hidden;
+    }
+    .event_rowStart.event_main_section.row.row-cols-1.row-cols-md-2.g-4.container {
+      margin-left: 5rem;
+  }
+    .event_Col1 img {
+      border: 20px solid #fbd07a;
+      border-top-left-radius: 9.375rem;
+      z-index: 1;
+      width: 30.438rem;
+      height: 23.125rem;
+  }
+  .event_Col2 img {
+    border: 20px solid #003831;
+    border-bottom-right-radius: 169.737px;
+    z-index: -1;
+    position: relative;
+    right: 5.563rem;
+    top: 0.125rem;
+    width: 30.313rem;
+    height: 23.688rem;
+  }
+  .card_heading h5 {
+    font-family: 'Rochester';
+    font-size: 35px;
+    padding: -38px;
+    width: 16rem;
+    align-items: center;
+    /* text-align: center; */
+    position: relative;
+    bottom: 81px;
+  }
+    .Book_Venue_description {
+      display: flex;
+      flex-direction: row;
+      width: 60.188rem;
+      height: 16.875rem;
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: "Roboto",sans-serif;
+      font-weight: 400;
+      line-height: 1.875rem;
+      flex-wrap: wrap;
+      margin-bottom: 5rem;
+  }
+  p.paraLetsChat1 {
+    width: 45rem;
+    margin-left: 5rem;
+  }
+  p.paraLetsChat {
+    margin-left: -33rem;
+    margin-top: 4rem;
+  }
+  .section_main_left {
+    margin-top: 6.5rem;
+    margin-left: 1rem;
+  }
+  .right_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-self: center;
+    z-index: -1;
+    position: relative;
+    bottom: -9rem;
+    width: 83%;
+    padding: 1rem;
+    margin-top: -16rem;
+    margin-bottom: 17rem;
+    margin-left: 102px;
+  }
+  .para_section {
+    width: 33%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 0.6rem;
+    margin-right: 6%;
+    border-radius: 10px;
+  }
+  .para_section p {
+    font-size: 11.5px;
+  }
+  .section_main_container{
+    position: absolute;
+    top: 109rem;
+  }
+  .top_image img {
+    padding: 8px;
+    width: 13rem;
+    width: 11.188rem;
+  }
+  .horizontal_image img {
+    padding: 10px;
+    width: 13rem;
+    width: 11.188rem;
+  }
+  .main_horizontal_img img {
+    padding: 10px;
+    width: 22.6rem;
+  }
+  .corner_left {
+    position: relative;
+    left: 19rem;
+    color: black;
+    bottom: 3.625rem;
+  }
+  }}
+  @media screen and (min-width:320px) and (max-width:360px) {
+    .rigthSectionDesktopView{
+      display: none;
+    }
+  .section_main_container{
+    z-index: 0;
+  }
+  .rigthSectionMobileView{
+    height: 42rem;
+  }
+  .paraSectionMobileView {
+    width: 225px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 6.063rem;
+    margin-top: 20rem;
+    height: 322px;
+    margin-right: -20%;
+    border-radius: 10px;
+    position: relative;
+    top: -8px;
+  }
+  p.paraSectionP {
+    font-size: 12px;
+    padding: 9px;
+  }
+  }
+  @media screen and (min-width:360px) and (max-width:372px) {
+    .rigthSectionDesktopView{
+      display: none;
+    }
+  .section_main_container{
+    z-index: 0;
+  }
+  .rigthSectionMobileView{
+    height: 42rem;
+  }
+  .paraSectionMobileView {
+    width: 248px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #fbd07a;
+    padding: 6.063rem;
+    margin-top: 20rem;
+    height: 322px;
+    margin-right: -17%;
+    border-radius: 10px;
+    position: relative;
+    top: -8px;
+  }
+  }
+  @media screen and (min-width:372px) and (max-width:576px) {
+    .rigthSectionDesktopView{
+      display: none;
+    }
+  .section_main_container{
+    z-index: 0;
+  }
+  .rigthSectionMobileView{
+    height: 42rem;
+  }
+  .paraSectionMobileView{
+    width: 248px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      background-color: #fbd07a;
+      padding: 6.063rem;
+      margin-top: 20rem;
+      height: 322px;
+      margin-right: -7%;
+      border-radius: 10px;
+      position: relative;
+      top: -15px;
+  }
+  }
+  @media screen and (min-width:576px) {
+    .rigthSectionMobileView{
+      display: none;
+    }
+    .section_main_container{
+      z-index: 0;
+    }
+  }
+  @media screen and (min-width:439px) and (max-width:480px) {
+    .section_main_left {
+      margin-top: -74.7rem;
+      margin-left: 2rem;
+  }
+  }
+  .venuesStarting{
+    overflow: hidden;
+  }
+
+ 
+ 
+  
+  .lablesMain{
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;}
+  
+  @media screen and (min-width:1400px) and (max-width:1500px){
+    .section_main_left{
+      margin-top: -2.5rem;
+    }
+  }
+ 
+
+  .contactHeadings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+ 
+  .lablesMain{
+    position: relative;
+    left: -22.2rem;
+    margin-bottom: 0.4rem;
+  }
+  @media screen and (min-width:990px) and (max-width:1200px){
+    .textareScroll{
+      /* width: 38rem; */
+      width: 100%;
+    position: relative;
+    left: -6px;
+    }
+    .lablesMain{
+      position: relative;
+      left: -15rem;
+    }
+    .submitButton{
+      padding-left: 10rem;
+    }
+  }
+  @media screen and (min-width:1200px) and (max-width:1400px){
+    .textareScroll{
+      /* width: 45.4rem; */
+      width: 100%;
+    position: relative;
+    left: -6px;
+    }
+    .lablesMain{
+      position: relative;
+      left: -19rem;
+    }
+ 
+   
+  }
+  @media screen and (min-width:1440px) {
+    .textareScroll{
+      /* width: 53rem; */
+      width: 100%;
+    position: relative;
+    left: -6px;
+    }
+    .card_heading h5 {
+      font-family: 'Rochester';
+      font-size: 50px;
+      padding: -38px;
+      width: 533px;
+      align-items: center;
+      /* text-align: center; */
+      position: relative;
+      bottom: 81px;
+      top: -66px;
+  }
+  }
+  @media (min-width:2558px){
+    .event_Col1 img{
+      width: 41.5rem;
+    }
+    .event_Col2 img{
+      width: 41.5rem;
+    }
+    .card_heading h5{
+      left: -30px;
+      width: 100%;
+      font-size: 50px;
+      position: relative;
+      left: -110px;
+    }
+    .para_section p{
+      font-size: 18px;
+      line-height: 21px;
+    }
+    .section_main_left{
+      margin-top: -21rem;
+      margin-right: 40px;
+    }
+    .para_section{
+      width: 33rem;
+      margin-right: 3.5%;
+    }
+    .Book_Venue_container h5{
+      margin-top: 1rem;
+      margin-bottom: 5rem;}}
+      .spanCheckbox{
+        border: 2px solid #000000;
+        border-radius: 16px;
+        height: 19px;
+        width: 34px;
+        position: relative;
+        top: 3px;
+      }
+
+  @media screen and (min-width:320px) and (max-width:767px) {
+    .form-control{
+      width: 300%;
+    }
+    .form-control-date{
+      width: 300%;
+    }
+    .form-control-text{
+      width: 300%;
+    }
+    .form-controlSelect{
+      width: 150%;
+    }
+    .form-controlSecond{
+      width: 300%;
+    }
+    .textareScroll{
+      width: 150%;
+    }
+    .form-controlThird{
+width: 398%;
+    }
+    .form-controlfourth{
+      width: 590%;
+    }
+    .form-label{
+      width: 14rem;
+    }
+    .labelSpan{
+
+  
+    display: flex;
+    align-items: center;
+    width: 19rem;  }
+    .spanCheckbox{
+      width: 23px;
+      height: 18.7px;
+    }
+  }
+  .checkboxRound {
+    width: 0.8em;
+    height: 0.8em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: -5.456px;
+}
+
+.checkboxRound:checked {
+    background-color:#000000;
+}

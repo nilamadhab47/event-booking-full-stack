@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* a {
+  color: inherit;
+  text-decoration: none;
+} */
+/* @font-face {
+  font-family: 'CHAWP';
+  src: local('CHAWP'), url(./fonts/chawp.woff) format('truetype');
+} */
+* {
+  box-sizing: border-box;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+/* @font-face {
+  font-family: 'CHAWP';
+  src: url(../fonts/chawp.woff);
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+
+} */
